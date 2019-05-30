@@ -1,2 +1,3 @@
 # FCC-Tribute-Page-
-Tribute page for Grace Hopper(HTML CSS)
+Tribute page for Grace Hopper
+Practice HTML and CSS
