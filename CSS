@@ -1,0 +1,107 @@
+/* Header styling */
+
+.jumbotron {
+	text-align: center;
+	background-color: #3973ac;
+	padding: 5px;
+	font-size: 28px;
+}
+/* font and sizing for main */
+
+body {
+  font-family: 'Cinzel Decorative';
+	font-size: 20px;
+}
+/* image styling */
+
+img {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2px;
+}
+/* border around images */
+
+.border {
+	border-style: solid;
+	border-width: 2px;
+	border-color: #404040;
+}
+/* container around first image/quote/caption */
+
+.container {
+	position: relative;
+	text-align: center;
+	color: black;
+	font-size: 12px;
+}
+/* Quote  layout */
+
+h2 {
+	z-index: 2;
+	position: absolute;
+	top: 25%;
+	right: 18%;
+	width: 100%;
+	display: block;
+	margin: auto;
+}
+img {
+	display: block;
+}
+/* Quote styling */
+
+h2 span {
+	color: white;
+	font: bold 24px/45px Helvetica, Sans-Serif;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	/* fallback color */
+	background: rgba(0, 0, 0, 0.7);
+	padding: 10px;
+  @media all and (min-width: 380px) {
+        h2 {
+            color: blue;
+            font-size:26px;
+        }
+    }
+}
+
+/* bottom right image */
+
+.second-img {
+	float: right;
+}
+/* main background */
+
+#main {
+	background-color: #c6d9ec;
+	margin: 20px;
+	padding: 10px 10px 10px 10px;
+}
+/* biography content */
+
+p {
+	position: relative;
+	text-align: center;
+	color: black;
+}
+
+/* removes caption over image at 480px */
+@media only screen and (max-width: 480px) {
+.caption {
+display: none;
+}
+}
+/* footer */
+a {
+  color:#e6ffff;
+}
+footer {
+	text-align: center;
+	font-size: 15px;
+  font-weight: normal;
+	background-color: #3973ac;
+}
