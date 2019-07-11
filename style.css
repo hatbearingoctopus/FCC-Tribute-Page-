@@ -89,8 +89,8 @@ p {
 	color: black;
 }
 
-/* removes caption over image at 480px */
-@media only screen and (max-width: 480px) {
+/* removes caption over image at 400px */
+@media only screen and (max-width: 400px) {
 .caption {
 display: none;
 }
